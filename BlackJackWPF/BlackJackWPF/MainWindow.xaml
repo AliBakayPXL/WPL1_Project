@@ -5,9 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlackJackWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="233,176,0,0" TextWrapping="Wrap" Text="voorbeeld2" VerticalAlignment="Top"/>
+        Title="MainWindow" Height="450" Width="800" Background="LightGreen">
+
+
+    <Grid Margin="20">
+        <!--Buttons-->
+        <Button Content="Deel" HorizontalAlignment="Center" Height="66" Margin="0,10,0,0" VerticalAlignment="Top" Width="218" Click="BtnDeel"/>
+        <Button Content="Hit" HorizontalAlignment="Center" Height="66" VerticalAlignment="Top" Width="218" Margin="0,107,0,0" Click="BtnHit"/>
+        <Button Content="Stand" HorizontalAlignment="Center" Height="66" Margin="0,208,0,0" VerticalAlignment="Top" Width="218" Click="BtnStand"/>
+        <!--TextBlocks-->
+        <TextBlock HorizontalAlignment="Left" Height="56" Margin="10,40,0,0" TextWrapping="Wrap" Text="Speler" VerticalAlignment="Top" Width="160" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="56" Margin="590,40,0,0" TextWrapping="Wrap" Text="Bank" VerticalAlignment="Top" Width="160" FontSize="24"/>
+        <!--ListBox-->
+        <ListBox HorizontalAlignment="Left" Height="167" Margin="10,107,0,0" VerticalAlignment="Top" Width="190" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ListBox HorizontalAlignment="Left" Height="167" Margin="560,107,0,0" VerticalAlignment="Top" Width="190" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
+
+
 </Window>
