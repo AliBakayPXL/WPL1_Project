@@ -1,0 +1,16 @@
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\bin\Debug\BlackJackWPF.exe.config
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\bin\Debug\BlackJackWPF.exe
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\bin\Debug\BlackJackWPF.pdb
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.csproj.AssemblyReference.cache
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\MainWindow.g.cs
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\App.g.cs
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF_MarkupCompile.cache
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF_MarkupCompile.lref
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\MainWindow.baml
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.g.resources
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.Properties.Resources.resources
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.csproj.GenerateResource.cache
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.csproj.CoreCompileInputs.cache
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.exe
+C:\Users\robin\Documents\WPL1_Project\BlackJackWPF\BlackJackWPF\obj\Debug\BlackJackWPF.pdb

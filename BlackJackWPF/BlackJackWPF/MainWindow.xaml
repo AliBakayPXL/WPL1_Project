@@ -5,16 +5,69 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlackJackWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="450" Width="800">
 
 
-    <Grid>
-        <!--Buttons-->
+    <Grid Background="DarkRed">
+        <!--Kolommen en rijen-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--TextBlokken-->
+        <TextBlock Margin="15" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
+                 Name="Speler" FontSize="23" 
+                 Foreground="DarkGoldenrod" Background="Black"
+                 VerticalAlignment="Center" HorizontalAlignment="Left"
+                 Padding="15"
+                 Width="118">
+            Speler :
+
+        </TextBlock>
+        <TextBlock Margin="15" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="1"
+                 Name="Bank" FontSize="23" 
+                 Foreground="DarkGoldenrod" Background="Black"
+                 VerticalAlignment="Center" HorizontalAlignment="Left"
+                 Padding="15" Width="118">
+            : Bank
+        </TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="0"
+                 Grid.ColumnSpan="2"
+                 Name="Tafel" FontSize="50" Foreground="DarkGoldenrod" Background="Black"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"
+                 Width="500">
+            ...........___{Tafel}___
+
+        </TextBlock>
+        <TextBox Grid.Column="0" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="2"
+                 Height="172" Width="250" FontFamily="14" Foreground="White"
+                 Background="Black" BorderBrush="DarkGoldenrod"
+                 BorderThickness="5">
+
+        </TextBox>
+        <TextBox Grid.Column="4" Grid.Row="2"
+                 Grid.ColumnSpan="2" Grid.RowSpan="2"
+                 Height="172" Width="250" FontSize="14" Foreground="White"
+                 Background="Black" BorderBrush="Goldenrod"
+                 BorderThickness="5">
+
+        </TextBox>
         
-        <!--TextBlocks-->
-       
-        <!--TextBox-->
-        
+
+
+
 
     </Grid>
 
