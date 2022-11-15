@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
 
 
-    <Grid Background="DarkRed">
+    <Grid Background="Green">
         <!--Kolommen en rijen-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition ></ColumnDefinition>
@@ -26,25 +26,26 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <!--TextBlokken-->
-        <TextBlock Margin="15" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
-                 Name="Speler" FontSize="23" 
-                 Foreground="DarkGoldenrod" Background="Black"
-                 VerticalAlignment="Center" HorizontalAlignment="Left"
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
+                 Name="Speler" FontSize="28" FontStyle="Italic"
+                 Foreground="Gold" Background="Green"
+                 VerticalAlignment="Top" HorizontalAlignment="Left"
                  Padding="15"
-                 Width="118">
+                 Width="118" Margin="0,13,0,0">
             Speler :
 
         </TextBlock>
-        <TextBlock Margin="15" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="1"
-                 Name="Bank" FontSize="23" 
-                 Foreground="DarkGoldenrod" Background="Black"
-                 VerticalAlignment="Center" HorizontalAlignment="Left"
+        <TextBlock Margin="15,13,0,0" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="1"
+                 Name="Bank" FontSize="28" FontStyle="Italic"
+                 Foreground="Gold" Background="Green"
+                 VerticalAlignment="Top" HorizontalAlignment="Left"
                  Padding="15" Width="118">
             : Bank
         </TextBlock>
         <TextBlock Grid.Column="2" Grid.Row="0"
                  Grid.ColumnSpan="2"
-                 Name="Tafel" FontSize="50" Foreground="DarkGoldenrod" Background="Black"
+                 Name="Tafel" FontSize="50" FontStyle="Italic"
+                 Foreground="gold" Background="Green"
                  VerticalAlignment="Center" HorizontalAlignment="Center"
                  Width="500">
             ...........___{Tafel}___
@@ -52,19 +53,67 @@
         </TextBlock>
         <TextBox Grid.Column="0" Grid.Row="2"
                  Grid.ColumnSpan="2" Grid.RowSpan="2"
-                 Height="172" Width="250" FontFamily="14" Foreground="White"
-                 Background="Black" BorderBrush="DarkGoldenrod"
-                 BorderThickness="5">
+                 Height="165" Width="250" FontFamily="14" Foreground="White" FontStyle="Italic"
+                 Background="Black" BorderBrush="Gold"
+                 BorderThickness="5"
+                 Name="TxtKaartenSpeler" TextChanged="TxtKaartenSpeler_TextChanged">
 
         </TextBox>
         <TextBox Grid.Column="4" Grid.Row="2"
                  Grid.ColumnSpan="2" Grid.RowSpan="2"
-                 Height="172" Width="250" FontSize="14" Foreground="White"
-                 Background="Black" BorderBrush="Goldenrod"
-                 BorderThickness="5">
+                 Height="165" Width="250" FontSize="14" Foreground="White" FontStyle="Italic"
+                 Background="Black" BorderBrush="Gold"
+                 BorderThickness="5"
+                 Name="TxtKaartenBank">
 
         </TextBox>
-        
+        <TextBox Grid.Column="0" Grid.Row="4"
+                 Grid.ColumnSpan="2" Background="Green"
+                 FontSize="20" FontStyle="Italic" Foreground="Gold"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"
+                 Name="TxtSpelerScore" TextChanged="TxtSpelerScore_TextChanged">
+
+        </TextBox>
+        <TextBox Grid.Column="4" Grid.Row="4" 
+                 Grid.ColumnSpan="2" Background="Green"
+                 FontSize="20" FontStyle="Italic" Foreground="Gold"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"
+                 Name="TxtSpelerScore2" TextChanged="TxtSpelerScore2_TextChanged">
+
+        </TextBox>
+        <TextBox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"
+                 Background="Green"
+                 FontStyle="Italic" FontSize="20" Foreground="Gold"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"
+                 Name="TxtResultaat" TextChanged="TxtResultaat_TextChanged">
+
+        </TextBox>
+
+        <Button Margin="20"
+                Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"
+                FontSize="20" FontStyle="Italic" Name="BtnDeel"
+                Background="Gold"
+                Click="BtnDeel_Click">
+            Deel
+        <!--Buttons-->
+        </Button>
+        <Button Margin="20"
+                Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2"
+                FontSize="20" FontStyle="Italic" Name="BtnHit"
+                Background="gold"
+                Click="BtnHit_Click">
+            Hit
+
+        </Button>
+        <Button Margin="20"
+                Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"
+                FontSize="20" FontStyle="Italic" Name="BtnStand"
+                Background="gold"
+                Click="BtnStand_Click">
+            Stand
+
+        </Button>
+
 
 
 

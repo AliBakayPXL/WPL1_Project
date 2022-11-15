@@ -26,6 +26,36 @@ namespace BlackJackWPF
         {
             InitializeComponent();
         }
+
+        private void BtnDeel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnHit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnStand_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TxtResultaat_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TxtSpelerScore_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TxtSpelerScore2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
      
